@@ -41,3 +41,8 @@
 
 ### 6. Sixth step: Résolution de conflits
 
+J'ai d'abord créé une branche BAD, puis ajouté la section "Trouble" dans le fichier README.md. Ensuite, j'ai basculé sur la branche main et ajouté la section "Troubleshooting". Après cela, j'ai fusionné la branche main avec la branche bad. Lors de la fusion, un conflit a été détecté dans le fichier README.md, que j'ai résolus manuellement avant de valider le merge par un commit.
+
+
+Scénario #2
+

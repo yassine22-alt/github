@@ -2,8 +2,4 @@
 
 ### changes
 
-<<<<<<< HEAD
-### Trouble
-=======
 ### Troubleshooting
->>>>>>> main

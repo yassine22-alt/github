@@ -1,1 +1,7 @@
-*.log
+*
+
+!licence.txt
+!README.md
+!.gitignore
+
+.git/
