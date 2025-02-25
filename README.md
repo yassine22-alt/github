@@ -17,3 +17,17 @@
 1) - HEAD est un pointeur qui indique la référence actuelle dans Git. Il pointe généralement vers la dernière commit de la branche active.
    - Les logs enregistrent l’historique des commits et des actions Git. Ils permettent de retracer les modifications effectuées.
    - Une branche est une version parallèle du code, permettant de     travailler sur des fonctionnalités sans affecter le projet principal.
+2) `git add .`
+`git commit -m "licence added"`
+
+3) Pour afficher les fichiers traqués par Git : `git ls-files`
+
+
+### 3. Third step: Historique
+1) `git log --oneline --graph -1`
+2) To make it as an alias `git config --global alias.historic "log --oneline --graph -1"`
+3) List alias : `git config --global --list | grep alias`
+4) Historic of README file: `git historic projects/demo/README.md`
+
+
+### 4. Fourth step: Exclusion des fichiers
