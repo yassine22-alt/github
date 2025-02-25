@@ -44,5 +44,18 @@
 J'ai d'abord créé une branche BAD, puis ajouté la section "Trouble" dans le fichier README.md. Ensuite, j'ai basculé sur la branche main et ajouté la section "Troubleshooting". Après cela, j'ai fusionné la branche main avec la branche bad. Lors de la fusion, un conflit a été détecté dans le fichier README.md, que j'ai résolus manuellement avant de valider le merge par un commit.
 
 
-Scénario #2
+## Scénario #2
 
+### 1. First step: Tagging
+
+1) `git tag -a V1.0 -m "RELEASE 1.0"`
+2) `git show V1.0`
+3) Les tags marquent des versions spécifiques dans l'historique du projet, comme des versions stables ou des releases. Ils permettent de :
+
+Identifier clairement des versions importantes (ex. V1.0).
+Faciliter le déploiement et les tests.
+Avoir un historique lisible pour retrouver facilement des points fixes dans le projet.
+
+### 2. Second step: Stashing et sauvegarde du travail en cours
+
+1) `git stash `permet de mettre temporairement de côté (stocker) les modifications non commises dans votre répertoire de travail, afin de revenir à un état propre (sans perdre vos modifications).
