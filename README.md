@@ -31,9 +31,13 @@
 
 
 ### 4. Fourth step: Exclusion des fichiers
-1) Staging sans utiliser` git add .` : `git commit -am "staging without adding"`
+1) Staging sans utiliser `git add .` : `git commit -am "staging without adding"`
 
 
 ### 5. Fifth step: Branching and Merging
-1) Créer une branche updates, effectuer le staging et le commit en une seule ligne : `git checkout -b updates && git add . && git commit -m "Initial commit on updates"
-` 
+1) Créer une branche updates, effectuer le staging et le commit en une seule ligne : `git checkout -b updates && git add . && git commit -m "Initial commit on updates"` 
+2) `git merge updates`
+
+
+### 6. Sixth step: Résolution de conflits
+
